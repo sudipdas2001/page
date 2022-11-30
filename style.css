@@ -86,3 +86,23 @@ footer {
     align-items: center;
     margin-top: 8%;
   }
+
+  /* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 10s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 8000ms;
+  --animate-delay: 15s;
+}
+
+
+#text{
+  color: black;
+}
+
+.li {
+  list-style-type: none;
+}

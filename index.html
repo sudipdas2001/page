@@ -11,15 +11,20 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!-- animated -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Vidyasagar University</title>
     <link rel="icon" href="./assets/logo.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./assets/logo.png" alt="" height="70px"
+          <img src="./assets/sudip.png" alt="" height="100px"
         /></a>
         <button
           class="navbar-toggler"
@@ -48,7 +53,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" data-bs-target="#exampleModal" href="#"
                 >Faculties</a
               >
             </li>
@@ -66,9 +71,132 @@
         </div>
       </div>
     </nav>
-    <!-- crowsal -->
+
+    <!-- ########################################################################################################################## -->
+    <!-- main poster -->
+    <div class="container-fluid">
+      <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> -->
+
+      <!-- <div class="carousel-inner"> -->
+      <!-- <div class="carousel-item active"> -->
+
+      <img
+        style="filter: blur(7px)"
+        src="./assets/Its-Official-India-becomes-5th-Largest-Economy-in-the-World-overtakes-UK-France-1.jpg"
+        class="d-block w-100"
+        alt="..."
+        height="70%"
+        width="100%"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="color: black;" class="animate__animated animate__heartBeat mt-3">
+          INNTERNATIONAL CONFERENC ON POST-COVID CHALLENGES IN BUSINESS AND
+          ECONOMY
+        </h1>
+
+        <h4 class="mt-3"><b>Organized by</b></h4>
+        <img
+          id="logo"
+          src="./assets/logo.png"
+          alt=""
+          srcset=""
+          height="20%"
+          width="20%"
+        />
+        <p class="mt-5" id="text">
+          Department of Commerce Vidyasagar University, Midnapore West Bengal,
+          India
+        </p>
+        <h4 id="text">Dates: March 2&3 , 2023</h4>
+        <h4 id="text">Conferenceemailid:pccbe2023@gmail.com</h4>
+        <h5 id="text">Venue</h5>
+        <p id="text">Vidyasagar University Campus Midnapore :: West Bengal</p>
+      </div>
+      <!-- </div> -->
+
+      <!-- </div> -->
+
+      <!-- </div> -->
+    </div>
+    <!-- ########################################################################################################### -->
+    <div class="container mt-3">
+      <div class="card text-center">
+        <div class="card-title mt-2">
+          <h6>Who can attend the event?</h6>
+          <p>
+            The event is open to academicians, research scholars, students,
+            professionals, corporate representatives from banks, insurance
+            companies, MFIs etc.
+          </p>
+        </div>
+        <div class="card-body">
+          <h6>Conference Sub-themes:</h6>
+          <ul>
+            <li>Fintech</li>
+            <li>Health</li>
+            <li>Education</li>
+            <li>Migrant workers</li>
+            <li>Unemployment</li>
+            <li>Corporate Strategy</li>
+            <li>Financial Sector</li>
+          </ul>
+          <p>
+            Any paper which does not fall under the above-mentioned themes but
+            is related to the theme of the conference is welcome to the
+            organizers.
+            <br />
+
+            Submission details: Any kind of correspondence relating to the
+            conference should be sent to <a href="">pccbe2023@gmail.com</a> with
+            a copy to <a href="">pal.brajaballav1@gmail.com</a> &
+            <a href="">tagarkhan@yahoo.com</a>
+
+            The submitted paper should be formatted according to the “Guidelines
+            for authors” as required for Vidyasagar University Journal of
+            Commerce (visit
+            <a href=""
+              >http://vidyasagar.ac.in/files/dspace/joc/instruction.pdf</a
+            >
+            for details). Note: Not more than two papers can be submitted by any
+            author (either singly or jointly).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Conference -->
+    <div class="container mt-2">
+      <div class="card text-center">
+        <div class="card-title mt-2">
+          <h6><b>About the Conference</b></h6>
+        </div>
+        <div class="card-body">
+          <p>
+            Covid-19 has affected businesses and economies throughout the world.
+            It has increased risks on the one hand, but at the same time,
+            generated new avenues for addressing structural problems and
+            techniques for better reconstruction. The pandemic has highlighted
+            the need and vitality of migrant labourers, problems related to
+            healthcare, agricultural sector, education, industry and the overall
+            business environment. The unprecedented pandemic that caused havoc
+            in all parts of the globe has exposed the vulnerability of the
+            different sectors at the national and global levels. It is
+            therefore, time to think about the ways and strategies that can be
+            taken so that we are in a position to mitigate the adverse situation
+            that the world has endured during the last three years. This
+            conference, therefore provides a platform for experts and
+            researchers to come together and highlight various pertinent
+            challenges and provide possible solutions to the problems. The
+            organizers welcome you all to PCCBE-2023.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ##################################### -->
+
     <!-- <div class="container-fluid mt-1"> -->
-    <div class="container">
+    <div class="container mt-2">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -120,87 +248,269 @@
         </button>
       </div>
     </div>
-   
-<!-- faculty -->
 
-    <div class="container">
-      <div class="card-title mt-2">
-        <h4 class=""><b class="text-center">Faculties under this Department</b> </h4>
-      </div>
-      <div class="card-group">
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page.jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">Associate Professor</h5>
-            <p class="card-text">	Dr.-Tarak-Nath-Sahu</p>
-            <p class="card-text"><small class="text-muted">taraknathsahu1@mail.vidyasagar.ac.in
-              taraknathsahu1982@gmail.com</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (1).jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Associate Professor	</h5>
-            <p class="card-text">	Dr.-Abhijit--Sinha</p>
-            <p class="card-text"><small class="text-muted">	abhijitsinha_091279@rediffmail.com
-              abhijitsinha_091279@rediffmail.com</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (2).jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Professor, HOD	</h5>
-            <p class="card-text"> 	Prof.-Brajaballav--Pal </p>
-            <p class="card-text"><small class="text-muted">pal.brajaballav@mail.vidyasagar.ac.in
-              pal.brajaballav@gmail.com</small></p>
-          </div>
-        </div>
-      </div>
-      <!-- sec -->
-      <div class="card-group">
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (3).jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">Professor</h5>
-            <p class="card-text">	Dr.-Tagar-Lal-Khan</p>
-            <p class="card-text"><small class="text-muted">tlkhan@mail.vidyasagar.ac.in
-              tagarkhan@yahoo.com</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (4).jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Professor</h5>
-            <p class="card-text">Dr.-Kalpataru--Bandopadhyay</p>
-            <p class="card-text"><small class="text-muted">kalpataru@mail.vidyasagar.ac.in
-              bkalpa.0to1@gmail.com</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (5).jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Professor</h5>
-            <p class="card-text">Dr.-Samir--Ghosh</p>
-            <p class="card-text"><small class="text-muted">samirghosh_commerce@mail.vidyasagar.ac.in
-              samirghoshvu@gmail.com</small></p>
-          </div>
+    <!-- faculty -->
+
+    <div class="container mt-3" id="exampleModal">
+      <!-- <div class="card"> -->
+        <div class="card-title text-center">
+          <h4>
+            <b>Faculties under this Department</b>
+            <hr />
+          </h4>
         </div>
 
-        <div class="card">
-          <img id="faculty" src="./assets/faculties/__Page (6).jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">Professor</h5>
-            <p class="card-text">	Prof.-Arindam--Gupta</p>
-            <p class="card-text"><small class="text-muted">arindam_finance@mail.vidyasagar.ac.in
-              arindamgupta69@gmail.com</small></p>
+        <div class="card-group">
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Associate Professor</h5>
+              <p class="card-text">Dr.-Tarak-Nath-Sahu</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >taraknathsahu1@mail.vidyasagar.ac.in
+                  taraknathsahu1982@gmail.com</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (1).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Associate Professor</h5>
+              <p class="card-text">Dr.-Abhijit--Sinha</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  abhijitsinha_091279@rediffmail.com
+                  abhijitsinha_091279@rediffmail.com</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (2).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Professor, HOD</h5>
+              <p class="card-text">Prof.-Brajaballav--Pal</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >pal.brajaballav@mail.vidyasagar.ac.in
+                  pal.brajaballav@gmail.com</small
+                >
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-     
+        <!-- sec -->
+        <div class="card-group">
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (3).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Professor</h5>
+              <p class="card-text">Dr.-Tagar-Lal-Khan</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >tlkhan@mail.vidyasagar.ac.in tagarkhan@yahoo.com</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (4).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Professor</h5>
+              <p class="card-text">Dr.-Kalpataru--Bandopadhyay</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >kalpataru@mail.vidyasagar.ac.in bkalpa.0to1@gmail.com</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (5).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Professor</h5>
+              <p class="card-text">Dr.-Samir--Ghosh</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >samirghosh_commerce@mail.vidyasagar.ac.in
+                  samirghoshvu@gmail.com</small
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              id="faculty"
+              src="./assets/faculties/__Page (6).jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Professor</h5>
+              <p class="card-text">Prof.-Arindam--Gupta</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >arindam_finance@mail.vidyasagar.ac.in
+                  arindamgupta69@gmail.com</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
     </div>
+
+    <!-- ############################################################################################# -->
+
+    <div class="container-fluid mt-2">
+      <!-- bank details -->
+      <div class="card text-center">
+        <div class="card-title">
+          <h2 class="mt-2"><b>Registration</b></h2>
+          <h5><b>Important deadlines:</b></h5>
+          <ul>
+            <li>Submission of abstract: February 1, 2023</li>
+            <li>Intimation of acceptance of abstract: February 05, 2023</li>
+            <li>Submission of full paper: February 15, 2023</li>
+            <li>Registration : Early bird - February 16, 2023</li>
+            <li>Registration : Late bird - February 24, 2023</li>
+          </ul>
+
+          <h4>Fee Details:</h4>
+          <ul>
+            <li>Registration fee</li>
+            <li>Early bird registration -</li>
+            <li>Corporate delegates: Rs. 2500</li>
+            <li>Academicians: RS.1500</li>
+            <li>Research scholars: Rs. 1000</li>
+            <li>Foreign delegates: US $ 30</li>
+            <li>For late registration: Early bird fee plus Rs. 750</li>
+          </ul>
+
+          <p>
+            The registration fee can be paid online through NEFT in favour of
+            “Commerce Seminar Account” payable at Midnapore. The relevant
+            details are given below:
+          </p>
+        </div>
+        <div class="card-body">
+          <h5><b>Bank Details</b></h5>
+          <ul>
+            <li>Name of the beneficiary: Commerce Seminar Account</li>
+            <li>Account Number: 1748 0110 0472 55</li>
+            <li>Type of account: Savings</li>
+            <li>Name of the bank: UCO Bank</li>
+            <li>Branch: Vidyasagar University Branch , Midnapore</li>
+            <li>IFS Code: UCBA0001748</li>
+            <li>Swift code: UCBAINDB102</li>
+          </ul>
+
+          <p>
+            The proof of payment is to be produced at the time of registration.
+            Spot registration is not allowed.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ############################################################################################# -->
+
+    <!-- ##################################### publication######################################################## -->
+    <div class="container mt-2">
+      <div class="card text-center">
+        <div class="card-title mt-2">
+          <h5>Publication of edited book</h5>
+        </div>
+        <div class="card-body">
+          <p>
+            The papers submitted for the conference after review by the Review
+            Committee will be selected for publication in the edited book with
+            ISBN to be published by a publisher of repute. Only those full
+            papers which are submitted within the deadline (February 15, 2023)
+            following the suggested guideline will be considered for publication
+            in the Edited Book. The soft copy will be delivered free of cost and
+            hard copy of the book can be availed by interested persons on
+            payment of a nominal charge.
+          </p>
+        </div>
+        <div class="card-title">
+          <h5>Accommodation</h5>
+          <p>
+            Arrangement for accommodation can be made for a limited number of
+            participants on self-payment basis, if prior intimation is given at
+            least ten days before the conference.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ##################################### -->
+
+    <!--About Department -->
+    <div class="container mt-2">
+      <div class="card text-center">
+        <div class="card-title mt-2">
+          <h6>About the Department</h6>
+        </div>
+        <div class="card-body">
+          <p>
+            Vidyasagar University is a reputed University in the Eastern region
+            of India which started its academic activities in 1985. The
+            Department of Commerce is among the oldest in the university which
+            has been imparting higher education for more than three decades. At
+            present, the department offers M.Com. and Ph.D degrees. Presently,
+            it has seven full time faculty members, each of whom have a Doctoral
+            degree. The department regularly publishes its annual journal,
+            “Vidyasagar University Journal of Commerce” bearing ISSN 0973-5917
+            which is indexed with Citefactor.org and EBSCO. The 27th volume will
+            be released very soon. The department has already conducted three
+            research methodology workshops. This year it will organize the
+            twenty seventh annual conference.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ##################################### -->
     <!-- map -->
     <div class="container mt-2">
-      <iframe
+      <div class="card text-center">
+        <div class="card-title mt-3">
+          <h5><b>Venue</b></h5>
+        </div>
+        <div class="card-body mt-2">
+          <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14751.685293205588!2d87.2978852!3d22.4319869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28ceb88fbd64b1d0!2sVidyasagar%20University!5e0!3m2!1sen!2sin!4v1669608335701!5m2!1sen!2sin"
         width="100%"
         height="450"
@@ -210,44 +520,64 @@
         referrerpolicy="no-referrer-when-downgrade"
         id="map"
       ></iframe>
-    </div>
-
-    
-    <!-- FOOTER -->
-    <footer
-    class="w-100 py-4 flex-shrink-0 mt-2"
-    style="background-color: #eaeef2"
-  >
-    <div class="container py-4">
-      <div class="row gy-4 gx-5">
-        <div class="col-lg-4 col-md-6">
-          <h5 class="h1 text-white"> <img class="logo1" src="./assets/logo.png" alt="" srcset=""> </h5>
-          <h6><b> Department of Commerce with Farm Management</b></h6>
-          <p class="small text-muted mb-0">
-            &copy; Copyrights. All rights reserved.
-            <a class="text-primary" href="#">Vidyasagar.com</a>
-          </p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          
-          <ul class="list-unstyled text-muted">
-            <li><p href="#">Vidyasagar University,</p></li>
-            <li><p href="#">Midnapore - 721102,</p></li>
-            <li><p href="#">West Bengal, India</p></li>
-            <li><p href="#">e-mail :</p></li>
-          </ul>
-        </div>
-        
-        <div class="col-lg-2 col-md-6">
-          
-          <ul class="list-unstyled text-muted">
-            <li><p href="#">Phone: (03222) 298 424 (Centrex-Extn. : 424)</p></li>
-            
-          </ul>
         </div>
       </div>
+      
     </div>
-  </footer>
+
+    <!-- #############################################################################################   -->
+    <!-- FOOTER -->
+    <footer
+      class="w-100 py-4 flex-shrink-0 mt-2"
+      style="background-color: #eaeef2"
+    >
+      <div class="container py-4">
+        <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+            <h5 class="h1 text-white">
+              <img class="logo1" src="./assets/logo.png" alt="" srcset="" />
+            </h5>
+            <h6><b> Department of Commerce with Farm Management</b></h6>
+            <p class="small text-muted mb-0">
+              &copy; Copyrights. All rights reserved.
+              <a class="text-primary" href="#">Vidyasagar.com</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <ul class="list-unstyled text-muted">
+              <li><p href="#">Vidyasagar University,</p></li>
+              <li><p href="#">Midnapore - 721102,</p></li>
+              <li><p href="#">West Bengal, India</p></li>
+              <li><p href="#">mail:tagarkhan@yahoo.com</p></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-8">
+            <ul class="list-unstyled text-muted">
+              <h5><b> Contact Persons:</b></h5>
+              <li>
+                Prof. Brajaballav Pal, Professor and Head, Department of
+                Commerce, Vidyasagar University, West Bengal and Jt. Org.
+                Secretary, PCCBE 2023
+                <br />
+                M: +91-89001 63078, E-mail:
+                <a href="">pal.brajaballav1@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-8">
+            <ul class="list-unstyled text-muted">
+              <li>
+                Prof. Tagar Lal Khan, Professor, Department of Commerce,
+                Vidyasagar University, West Bengal and Jt. Org. Secretary, PCCBE
+                2023 M: +91-94342 43675, E-mail:
+                <a href="">tagarkhan@yahoo.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script
